@@ -248,7 +248,8 @@ return array(
 					'fields' => array(
 						'post_title' => array(
 							'type' => 'string',
-							'analyzer' => 'standard',
+							'analyzer' => 'thai',
+                                                        'search_analyzer'=> 'thai',
 							'store' => 'yes',
 						),
 						'raw' => array(
@@ -268,7 +269,8 @@ return array(
 				),
 				'post_content' => array(
 					'type' => 'string',
-					'analyzer' => 'default',
+					'analyzer' => 'thai',
+                                        'search_analyzer'=> 'thai',
 				),
 				'post_status' => array(
 					'type' => 'string',
