@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: ElasticPress
+ * Plugin Name: ElasticPress DomeCloud Edition
  * Description: A fast and flexible search and query engine for WordPress.
  * Version:     2.1
  * Author:      Taylor Lovett, Matt Gross, Aaron Holbrook, 10up
@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 define( 'EP_URL', plugin_dir_url( __FILE__ ) );
 define( 'EP_PATH', plugin_dir_path( __FILE__ ) );
-define( 'EP_VERSION', '2.1' );
+define( 'EP_VERSION', '3.1.1' );
 define( 'EP_MODULES_DIR', dirname( __FILE__ ) . '/modules' );
 
 require_once( 'classes/class-ep-config.php' );
